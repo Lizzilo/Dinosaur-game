@@ -9,3 +9,5 @@ function jump() {
         character.classList.remove("animate");
     },500) ;
 }
+
+
