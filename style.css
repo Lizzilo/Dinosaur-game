@@ -8,5 +8,12 @@
     width: 500px;
     height: 200px;
     border: 1px solid black;
+}
+
+#charachter {
+    width: 20px;
+    height: 50px;
+    background-color: red;
 
 }
+
