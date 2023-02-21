@@ -1,8 +1,11 @@
-var charachter =
-document.getElementById("block");
+var character =
+document.getElementById("character");
+var block = document.getElementById("block");
 function jump() {
-    charachter.classList.add("animte");
+    if(character.classList != "animate"){
+        character.classList.add("animte");
+    }
     setTimeout(function(){
-        charachter.classList.remove("animate");
+        character.classList.remove("animate");
     },500) ;
 }
