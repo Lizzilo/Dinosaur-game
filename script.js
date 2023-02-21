@@ -2,8 +2,8 @@ var character =
 document.getElementById("character");
 var block = document.getElementById("block");
 function jump() {
-    if(character.classList != "animate"){
-        character.classList.add("animte");
+    if(character.classList.contains("animate")){return}{
+        character.classList.add("animate");
     }
     setTimeout(function(){
         character.classList.remove("animate");
